@@ -21,4 +21,4 @@ highest = max(valid_ranks)
 print(f'number of valid ranks: {len(valid_ranks)}')
 print(f'average rank: {average:.2f}')
 print(f'highest rank :{highest}')
-print('done')
+
