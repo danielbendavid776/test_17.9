@@ -1,4 +1,10 @@
 def special_percentile(precent ,numbers):
+    '''
+     calculate percentile of numbers
+    :param precent: int
+    :param numbers: list
+    :return: return the first number in the list that has the highest percentile
+    '''
     after_sorted = sorted(numbers)
     position = precent/ 100 * len(after_sorted)
     index = int(position)
